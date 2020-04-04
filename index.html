@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<title>E. Ioannou :: Tilburg University </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-left" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+	<a href="#resources" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">RESOURCES</a>
+	<a href="#publications" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">PUBLICATIONS</a>
+    <a href="#cv" class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right">SHORT CV</a>   
+	<a href="#home" class="w3-bar-item w3-button w3-padding-large w3-right">HOME</a>
+	
+  </div>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-center" style="z-index:2;width:270px;text-align:center;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+	<br>
+	<br>
+    <img src="./images/EIoannou.JPEG" style="width:45%;center;" class="w3-round"><br>
+    <h4><b>Ekaterini Ioannou</b></h4>
+    <h6><b>Assistant Professor</b></h6>
+    <h6><b>Tilburg University</b></h6>
+  </div>
+ 
+  <div class="w3-panel w3-large">
+	<a class="list-group-item" target="_blank" href="https://research.tilburguniversity.edu/en/persons/ekaterini-ioannou"><img src="./images/UvT.png" style="width:22pt;center;" class="w3-round"></a>
+    &nbsp;
+	<a class="list-group-item" target="_blank" href="https://cy.linkedin.com/in/ekaterini-ioannou-8915231b"><i class="fa fa-linkedin ai-1x w3-hover-opacity"></i></a>
+    &nbsp;
+	<a class="list-group-item" target="_blank" href="https://dblp.org/pers/hd/i/Ioannou:Ekaterini"><i class="ai ai-dblp ai-1x w3-hover-opacity"></i></a>
+    &nbsp;
+	<a class="list-group-item" target="_blank" href="https://scholar.google.com/citations?user=WA46j3sAAAAJ&hl=en"><i class="ai ai-google-scholar ai-1x w3-hover-opacity"></i></a>
+	&nbsp;
+	<a class="list-group-item" target="_blank" href="https://www.researchgate.net/profile/Ekaterini_Ioannou"><i class="ai ai-researchgate ai-1x w3-hover-opacity"></i></a -->
+  </div>
+
+<!--
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+-->
+
+</nav>
+
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+  <!-- Header -->
+  <header id="home">
+  <br><br>
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <div class="w3-section w3-bottombar w3-padding-16"  style="margin-left:20px; margin-right:50px;"> 
+	<br>
+    I am an Assistant Professor 
+	in the <a href="https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/management/staff">Department of Management</a> 
+	of the <a href="https://www.tilburguniversity.edu/about/schools/economics-and-management">Tilburg School of Economics and Management</a>
+	at <a href="https://www.tilburguniversity.edu">Tilburg University</a>. 	
+	
+	My research focuses on information integration with an emphasis 
+	on the challenges of managing data with uncertainties, heterogeneity or correlations. I also investigate
+	blocking-based mechanisms for entity resolution over very large data collections as well as unstructured data 
+	(e.g., information from the Web). More recently, I started working on achieving a deeper integration of 
+	information extraction tasks within databases, and on efficiently retrieving analytics over graphs/hypergraphs 
+	with evolving data. 
+
+    </div>
+    </div>
+  </header>
+  <br>
+   <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>AFFILIATION</h3>
+      <p>Department of Management<br>
+         Tilburg School of Economics and Management (TiSEM)<br>
+         Tilburg University</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>ADRESSS</h3>
+      <p>Room K 808<br>
+         Warandelaan 2, 5037 AB Tilburg<br>
+         The Netherlands</p>
+    </div>
+
+    <div class="w3-third">
+      <h3></h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <i class="fa fa-envelope ai-1x w3-text-light-grey"></i>
+		  &nbsp;&nbsp;name.surname AT uvt.nl
+        <p></p>
+        </li>
+        <li class="w3-padding-16">
+          <i class="fa fa-phone ai-1x w3-text-light-grey"></i>
+		  &nbsp;&nbsp;+31 134664027 
+        <p></p>
+        </li>
+      </ul>
+    </div>
+	
+
+<br>
+		
+		
+  </div>
+  </footer>
+  
+    <header id="cv">
+  <br><br>
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Short CV</b></h1>
+	
+	  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+      <img src="/w3images/mountains.jpg" alt="Current  Position" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><a style="text-decoration: none;" target="_blank" href="https://www.tilburguniversity.edu/about/schools/economics-and-management">
+Tilburg School of Economics and Management (TiSEM)</a>, 
+		<a style="text-decoration: none;" target="_blank" href="https://www.tilburguniversity.edu/">Tilburg University </a></b></p> 
+	 </div>
+    </div>
+  </div>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+      <img src="/w3images/mountains.jpg" alt="Previous Positions" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><a style="text-decoration: none;" target="_blank" href="https://www.tue.nl/en/">Eindhoven University of Technology (TU/e)</a></b>: Assistant Professor, Data Mining Group</p> 
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://www.ouc.ac.cy/index.php/el/">Open University of Cyprus (OUC)</a></b>: Lecturer, Faculty of Pure and Applied Sciences</p>
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://www.epfl.ch/en/">École polytechnique fédérale de Lausanne (EPFL)</a></b>: Adjunct Faculty </p>
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://ec.europa.eu/info/index_en">European Commission</a></b>: Independent Expert</p>
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://www.tuc.gr/index.php?id=5397">Technical University of Crete</a></b>: Research Collaborator, SoftNet Lab</p>
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://www.ouc.ac.cy/index.php/el/">Open University of Cyprus</a></b>: Adjunct faculty</p>
+		<p><b><a style="text-decoration: none;" target="_blank" href="https://www.l3s.de/en">L3S Research Center</a></b>: Researcher</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Education" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>PhD, <a style="text-decoration: none;" target="_blank" href="https://www.uni-hannover.de/en/">Leibniz Universität Hannover</a>, Germany</b></p>
+		<p><b>MSc in Computer Science, <a style="text-decoration: none;" target="_blank" href="https://www.uni-saarland.de/en/home.html">Saarland University</a>, Germany</b></p>
+		<p><b>MSc in Advanced Information Technologies, <a style="text-decoration: none;" target="_blank" href="https://www.ucy.ac.cy/en/">University of Cyprus</a>, Cyprus</b></p>
+		<p><b>BSc in Computer Science, <a style="text-decoration: none;" target="_blank" href="https://www.ucy.ac.cy/en/">University of Cyprus</a>, Cyprus</b></p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Teaching" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+	  
+        <p><b>320092-M-6 – Business Intelligence and Data Management</b>: Tilburg University (co-lecturer with 
+		<a href="https://research.tilburguniversity.edu/en/persons/emiel-caron">E.A.M. Caron</a>), 2019-2020, Quartile 3</p>
+		<p><b>JBI030 – Data Mining</b>: TU/e (co-lecturer with 
+		<a href="https://research.tilburguniversity.edu/en/persons/davide-vidotto">D. Vidotto</a>), 2018-2019, Quartile 3</p>
+		<p><b>2IMM15 – Web information retrieval and data mining</b>: TU/e (co-lecturer with 
+		<a href="https://www.tue.nl/en/research/researchers/joaquin-vanschoren/">J. Vanschoren</a>), 2018-2019, Quartile 3</p>
+		<p><b>JBG040 – Data Challenge 1</b>: TU/e, 2018-2019, Quartile 2</p>
+		<p><b>2ID50 – Data modelling and databases</b>: TU/e (responsible for instructions), 2018-2019, Quartile 2</p>
+		<p><b>ENV-342 – Geographic information systems</b>: EPFL (responsible for the database lectures), 2017-2018</p>
+		<p><b>KPS510 - Web Technologies</b>: OUC, 2017-2018, Winter Semester</p>
+		<p><b>PES521 - Research Methods</b>: OUC, 2017-2018 & 2016-2017, Spring Semester</p>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Student Supervision" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>PDEng (Professional Doctorate in Engineering):</b><br>
+		 • A. Laponin, “Extracting information from unstructured service logbook texts” (in collaboration with 
+		 <a href="https://www.oce.com/">Océ Technologies B.V.</a>), TU/e, Oct. 2019.
+		 </p>
+        <p><b>M.Sc. Dissertations:</b><br>
+		 • N. van Son, “Integration of various financial data sources” (in collaboration with NIC)
+		 <br>
+		 • R. Coenders, “Search term clustering” (in collaboration with company ADchieve), TU/e, Aug. 2019.
+		 <br>
+		 • U. Biswas, “Normalization of Extracted Named-Entities in Text Mining” (in collaboration with ZyLAB), TU/e, Aug. 2019.
+		 <br>
+		 • M. Nikolaou, “Data for evaluating entity-related methodologies”, OUC, June 2017
+		 <br>
+		 • E. Routzouni, “Detecting and monitoring entity evolution”, OUC, June 2013
+		 <br></p>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  </footer>
+  
+  
+  
+      <header id="publications">
+  <br><br>
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Publications</b></h1>
+	
+  <div class="w3-row-padding">
+    <div class="w3-one w3-container w3-margin-bottom">
+	  <h4>Book Chapters</h4>
+      <div class="w3-container w3-white">
+        <p>		
+		<a href="./publications/files/chapter-IoannouS13.pdf">
+                <b>Management of Inconsistencies in Data Integration</b><br></a> 
+				Ekaterini Ioannou and 
+				<a href="http://researchers.lille.inria.fr/~staworko/">Slawek Staworko</a><br>
+				In book: "Data Exchange, Information, and Streams, Dagstuhl Follow-Ups", 
+				Schloss Dagstuhl - Leibniz-Zentrum fuer Informatik, Chapter 9, pp. 217-225, 2013.
+		</p> 
+		<p> 
+                <a href="./publications/files/chapter-IoannouNNV12.pdf">
+                <b>Embracing Uncertainty in Entity Linking</b><br></a> 
+				Ekaterini Ioannou, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="https://velgias.github.io/">Yannis Velegrakis</a><br>
+				In book: "Semantic Search Over the Web", Springer, Chapter 9, pp. 223-251, 2012.
+		</p> 			
+      </div>
+    </div>
+	
+	    <div class="w3-one w3-container w3-margin-bottom">
+	  <h4>Journals</h4>
+      <div class="w3-container w3-white">
+        <p>						
+				<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&amp;arnumber=7045501">
+				<b>Query Analytics over Probabilistic Databases with Unmerged Duplicates</b></a><br>
+				Ekaterini Ioannou and
+				<a href="http://www.softnet.tuc.gr/~minos/">Minos Garofalakis</a><br>
+                In IEEE Transactions on Knowledge and Data Engineering 27(8), pages 2245-2260, 2015.
+		</p> 
+		<p> 
+				<a href="./publications/files/journal-tcci-IoannouV.pdf">
+				<b>Searching Web 2.0 Data through Entity-Based Aggregation</b></a><br>
+				Ekaterini Ioannou and <a href="https://velgias.github.io/">Yannis Velegrakis</a><br>
+				In Journal of Transactions on Computational Collective Intelligence, pages 159-174, 2016.		
+		</p> 
+		<p> 
+			<a href=""><b>Data Management Research at the Technical University of Crete</b></a><br>
+			Stavros Christodoulakis, <a href="http://www.softnet.tuc.gr/~minos/">Minos Garofalakis</a>, Euripides Petrakis, Antonios Deligiannakis, Vasilis Samoladas, Ekaterini Ioannou, 
+			<a href="https://www.win.tue.nl/~opapapetrou/">Odysseas Papapetrou</a> and Stelios Sotiriadis.<br>
+			In SIGMOD Record 42(4), pages 61-66, December 2013.
+		</p> 
+		<p> 
+				<a href="http://www.computer.org/csdl/trans/tk/preprint/ttk2012990097-abs.html">
+				<b>A Blocking Framework for Entity Resolution in Highly Heterogeneous Information Spaces</b><br>
+				</a> 
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, 
+				<a href="http://helios.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>.<br>
+                In IEEE Transactions on Knowledge and Data Engineering 25(12), pages 2665-2682, 2013.
+		</p> 
+		<p> 
+				<a href="http://link.springer.com/article/10.1007/s13740-012-0015-8">
+				<b>On Generating Benchmark Data for Entity Matching</b><br></a>
+				Ekaterini Ioannou, 
+				Nataliya Rassadko,
+				<a href="https://velgias.github.io/">Yannis Velegrakis</a>.<br>
+		              In Journal on Data Semantics, Springer, March 2013, Volume 2, Issue 1, pp 37-56.
+		</p> 
+		<p> 
+                <a href="http://dx.doi.org/10.1016/j.websem.2009.12.001">
+                <b>Leveraging Personal Metadata for Desktop Search - The Beagle++ System</b><br></a> 
+				Enrico Minack, Raluca Paiu, Stefania Costache, 
+				<a href="http://www.gianlucademartini.net/">Gianluca Demartini</a>, Julien Gaugaz, Ekaterini Ioannou, 
+                Paul-Alexandru Chirita, and <a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a><br>
+                In Journal of Web Semantics, 2010, Volume 8, Issue 1, pp 37-54.
+        </p>
+	     		
+      </div>
+    </div>
+	
+	<div class="w3-one w3-container w3-margin-bottom">
+	  <h4>Conferences and Workshops</h4>
+      <div class="w3-container w3-white">
+        <p>	
+                <a href="./publications/files/conf-edbt-PapadakisIP20.pdf">
+                <b>Entity Resolution: Past, Present and Yet-to-Come</b><br></a> 				
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, and
+				<a href="http://helios.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a><br> 
+				In Proceedings of the 23nd International Conference on Extending Database Technology (EDBT), April 2020, Denmark.
+		</p> 
+        <p>		
+
+                <a href="./publications/files/conf-ikc-KozikowskiIVG15.pdf">
+                <b>Support of Part-whole Relations in Query Answering</b><br></a> 				
+                Piotr Kozikowski, Ekaterini Ioannou, <a href="https://velgias.github.io/">Yannis Velegrakis</a>, and Francesco Guerra<br>
+                In Proceedings of the 1st KEYSTONE Conference (IKC), September 2015, Portugal.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-sum-ioannouG14.pdf">
+                <b>Analytics over Probabilistic Unmerged Duplicates</b><br></a> 				
+				Ekaterini Ioannou, and
+				<a href="http://www.softnet.tuc.gr/~minos/">Minos Garofalakis</a><br>
+                In Proceedings of the 8th Conference on Scalable Uncertainty Management (SUM), September 2014, London.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-wsdm-papadakisINPN12.pdf">
+                <b>Beyond 100 million entities: large-scale blocking-based resolution for heterogeneous data</b><br></a> 
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="http://helios.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>.<br>
+                In Proceedings of the 5th ACM International Conference on Web Search and Data Mining (WSDM), Feb. 2012, Seattle.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-sigmod-IoannouNNV11.pdf">
+                <b>LinkDB: A Probabilistic Linkage Database System</b><br></a> 
+				Ekaterini Ioannou, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="https://velgias.github.io/">Yannis Velegrakis</a>.<br>
+                In Proceedings of the ACM SIGMOD International Conference on Management of Data, 12-16 June 2011, Athens, Greece.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-edbt-papapetrouIS11.pdf">
+                <b>Efficient Discovery of Frequent Subgraph Patterns in Uncertain Graph Databases</b><br></a> 
+				<a href="https://www.win.tue.nl/~opapapetrou/">Odysseas Papapetrou</a>, 
+				Ekaterini Ioannou, and 
+				<a href="https://web.imsi.athenarc.gr/%7Edskoutas/">Dimitrios Skoutas</a>.<br>
+                In Proceedings of the 14th International Conference on Extending Database Technology (EDBT), Mar. 2011, Sweden.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-wsdm-papadakisINF11.pdf">
+				<b>Efficient Entity Resolution for Large Heterogeneous Information Spaces</b><br></a> 
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, and 
+				Peter Fankhauser.<br>
+                In Proceedings of the 4th ACM International Conference on Web Search and Data Mining (WSDM), Feb. 2011, Hong Kong.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-jcdl-papadakisINPN11.pdf">
+				<b>Eliminating the Redundancy in Blocking-based Entity Resolution Methods</b><br></a> 
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="http://helios.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>.<br>
+                In Proceedings of the ACM/IEEE Joint Conference on Digital Libraries (JCDL), 13-17 June 2011, Ottawa, Canada.
+		</p> 
+		<p> 
+				<a href="./publications/files/swim-PapadakisINPN11.pdf">
+                <b>To Compare or Not to Compare: Making Entity Resolution more Efficient</b><br> </a> 
+				<a href="https://gpapadis.wordpress.com/">George Papadakis</a>, 
+				Ekaterini Ioannou, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="http://helios.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>.<br>
+                In Semantic Web Information Management Workshop, co-located with SIGMOD, June 2011, Athens, Greece.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-vldb-IoannouNNV10.pdf">
+                <b>On-the-Fly Entity-Aware Query Processing in the  Presence of Linkage</b><br></a> 
+				Ekaterini Ioannou, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang  Nejdl</a>, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="https://velgias.github.io/">Yannis Velegrakis</a><br>
+                In Proceedings of the VLDB Endowment (PVLDB), Vol. 3, No. 1, 13-17 Sep. 2010, Singapore.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-www-IoannouNV10.pdf">
+				<b>Enabling Entity-Based Aggregators for Web 2.0      data</b><br>				</a> 
+				Ekaterini Ioannou, 
+				<a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				<a href="https://velgias.github.io/">Yannis Velegrakis</a><br>
+                In Proceedings of the 19th International World Wide Web Conference (WWW), 26-30 April 2010, Raleigh, NC, USA.
+		</p> 
+		<p> 
+                <a href="./publications/files/conf-esws-IoannouPSN10.pdf">
+				<b>Efficient Semantic-Aware Detection of Near Duplicate Resources</b><br></a> 
+				Ekaterini Ioannou, 
+				<a href="https://www.win.tue.nl/~opapapetrou/">Odysseas Papapetrou</a>, 
+				<a href="https://web.imsi.athenarc.gr/%7Edskoutas/">Dimitrios Skoutas</a>, 
+				<a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a><br>
+                In Proceedings of the 7th Extended Semantic Web Conference (ESWC), 30 May - 03 June 2010, Heraklion, Greece.
+		</p> 
+		<p> 
+                  <a href="./publications/files/conf-caise-MiklosBB10.pdf">
+                  <b>From Web Data to Entities and Back</b><br> </a> 
+				  <a href="http://people.irisa.fr/Zoltan.Miklos/">Z. Miklos</a>, 
+			      <a href="http://lsirpeople.epfl.ch/nbonvin/">N. Bonvin</a>,
+                  P. Bouquet, M. Catasta, D. Cordioli, P. Fankhauser, J. Gaugaz, <br>
+                  E. Ioannou, H. Koshutanski, A. Mana, 
+				  <a href="https://www.l3s.de/en/node/86">C. Niederée</a>, 
+				  <a href="http://helios.mi.parisdescartes.fr/~themisp/">T. Palpanas</a>, and H. Stoermer <br>
+                  In 22nd International Conference on Advanced Information Systems Engineering (CAiSE), June 2010, Hammamet, Tunisia.
+		</p> 
+		<p> 
+                  <a href="./publications/files/conf-icwe-PapapetrouPIS10.pdf">                    
+				  <b>Efficient Term Cloud Generation for Streaming Web Content</b><br>  </a> 
+				  <a href="https://www.win.tue.nl/~opapapetrou/">Odysseas Papapetrou</a>, 
+				  <a href="https://gpapadis.wordpress.com/">George Papadakis</a>, Ekaterini Ioannou, and 
+				  <a href="https://web.imsi.athenarc.gr/%7Edskoutas/">Dimitrios Skoutas</a> <br>
+                  In 10th International Conference on Web Engineering (ICWE), July 2010, Vienna, Austria.
+		</p> 
+		<p> 
+                  <a href="./publications/files/desktop-CostacheGINN10.pdf">
+                  <b>Detecting Contexts on the Desktop Using Bayesian Networks</b><br>   </a> 
+				  Stefania Costache, Julien Gaugaz, Ekaterini Ioannou, 
+				  <a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, and 
+				  <a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a> <br>
+                  In DESKTOP Search Workshop, co-located with SIGIR,
+                  July 2010, Geneva, Switzerland.
+		</p> 
+		<p> 
+				 <a href="./publications/files/conf-phdEdbtIcdt-Ioannou09.pdf">
+                  <b>Entity-Aware Query Processing for Heterogeneous Data with Uncertainty and Correlations</b><br>
+                  </a> Ekaterini Ioannou<br>
+                  In Joint EDBT/ICDT Ph.D. Workshop, March 2009,
+                  St.-Petersburg, Russia. (<a href="http://www.l3s.de/web/page37g.do?sp=page11g&amp;kcond11g.att178a=1613"><b>Best Submission Award</b></a>)
+		</p> 
+		<p> 
+                  <a href="./publications/files/conf-webdb-IoannouSBJBSNM09.pdf">
+                  <b>Entity Search with NECESSITY</b><br></a> 
+				  Ekaterini Ioannou, Saket Sathe, 
+				  <a href="http://lsirpeople.epfl.ch/nbonvin/">Nicolas  Bonvin</a>, 
+				  Anshul Jain, Srikanth Bondalapati, 
+				  <a href="http://www.gleb.ch/">Gleb Skobeltsyn</a>, <br>
+                  <a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				  <a href="http://people.irisa.fr/Zoltan.Miklos/">Zoltan  Miklos</a><br>
+                  In Web and Databases Workshop (WebDB) co-located with  ACM SIGMOD, June 2009, Providence, Rhode Island.
+		</p> 
+		<p> 
+				  <a href="./publications/files/conf-caise-IoannouNN08.pdf">                    
+			      <b>Probabilistic Entity Linkage for Heterogeneous Information Spaces</b><br></a> 
+				  Ekaterini Ioannou, 
+				  <a href="https://www.l3s.de/en/node/86">Claudia Niederée</a>, 
+				  <a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a><br>
+                  In Advanced Information Systems Engineering, 20th  International Conference (CAiSE), June 2008,  Montpellier, France.
+		</p> 
+		<p> 
+                  <a href="./publications/files/conf-semweb-IoannouCKON07.pdf">
+                  <b>Access Control for sharing Semantic Data Across Desktops</b><br>
+                  </a> 
+				  Ekaterini Ioannou, Juri Luca De Coi, Arne   Kösling, Daniel Olmedilla, 
+				  <a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a><br>
+                  In 1st International Workshop on Privacy Enforcement  and Accountability with Semantics (PEAS),  International Semantic Web Conference, November 2007, Busan, Korea.
+		</p> 
+		<p> 
+                  <a href="./publications/files/BeagleArch.pdf"> 
+				  <b>The Beagle++ Toolbox: Towards an Extendable Desktop Search Architecture </b><br>
+                  </a> Ingo Brunkhorst, Paul-Alexandru Chirita, Stefania
+                  Costache, Julien Gaugaz, Ekaterini Ioannou, Tereza
+                  Iofciu, Enrico Minack, <a href="http://www.kbs.uni-hannover.de/%7Enejdl/">Wolfgang Nejdl</a>, Raluca Paiu<br>
+                  In Semantic Desktop Workshop (SemDesk-2006),  International Semantic Web Conference, November 2006,  Athens, GA, USA.
+		</p> 			
+      </div>
+    </div>
+  </div>
+  
+  <br><br>
+    </div>
+
+  
+  
+
+  <div class="w3-container w3-padding-large w3-grey">
+  <header id="resources">
+
+    <h1 id="resources"><b>Resources</b></h1>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-teal">
+	  <h4><a href="https://db.disi.unitn.eu/pages/EMBench/" target="_blank">Entity Matching Benchmark</a></h4>
+        <p>EMBench++ is a principled system for the evaluation
+of entity matching techniques. It offers a unique test case generation approach that
+combines different levels of types, complexity and scales, allowing a complete and accurate
+evaluation of the different aspects of a matching technique. </p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+	  <h4><a href="https://research.tilburguniversity.edu/en/projects/4ger" target="_blank">4gER :: Tutorial at EBDT 2020</a></h4>
+        <p>Provides a holistic and systematic view of the evolution of Entity Resolution 
+		methods by categorizing them into 4 generations, going from those crafted for maximizing Veracity
+over structured data, all the way to those tackling Veracity,
+Volume, Variety and Velocity over semi-structured data. </p>
+      </div>
+      <!-- div class="w3-third w3-dark-grey">
+	  <h4>Data Cleaning for Data Integration</h4>
+        <p>Overview of literature relevant to Entity Resolution grouped in 4 categories: atomic
+similarity methods for comparing strings, similarity methods for sets of strings, facilitating
+inner-relationships, and methods related to uncertain data management. </p>
+      </div-->
+      <div class="w3-third w3-teal">
+	  <h4>Data Collections</h4>
+	  <p>&#8226; <a target="_blank" href="https://www.dropbox.com/sh/d3pnf74kc4afxtw/AAAct6EwGi4z2U4pnBLgp8Bxa?dl=0">Synthetic Entity-related Collections:</a> used in the evaluation of the PVLDB 2018 paper.  <br>
+        &#8226; <a target="_blank" href="http://users.softnet.tuc.gr/~ioannou/entityrequests.html">Entity Request Collections:</a> can be used to evaluate methodologies for entity linkage as well as entity search. <br>
+		&#8226; <a target="_blank" href="http://users.softnet.tuc.gr/~ioannou/newsarticles.html">News Articles Collection:</a> RDF data describing the entities from news artciles. </p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    
+  </div>
+
+ 
+
+  <div class="w3-black w3-center w3-padding-24">Last modified: Apr 2020, Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

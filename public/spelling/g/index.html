@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>"g": veiling en vlot kern 6</title>
+<style>
+p,h1,h2 {
+  font-family: "Roboto", Roboto, Verdana;
+  font-size: 50pt;
+}
+</style>
+</head>
+<body style="font-family: Roboto, Verdana; font-size: 50pt;">
+
+
+<script>
+
+var swhitch = false;
+var counter = 0;
+var is_break = false;
+var url ="https://surfdrive.surf.nl/files/index.php/s/Z6PVxbyLXSRmOpx";
+var words = ["geit", "pauw", "hek", "gek", "mug", "mug",  "maag", "zeg", "oog", "hoog", "heg", "hek", "gek", 
+"zout", "dag", "ziet", "zou", "jou", "deuk", "leuk", "weeg", "dak", "hip",
+"wie", "uur", "guur", "gaar", "gaas", "aas", "dop", "geur", "rook", "rug",
+"joul", "oor", "voeg", "voel", "waar","vuur", "wieg", "reus"];
+
+var randomColor = Math.floor(Math.random()*16777215).toString(16);
+var randomIndex = Math.floor(Math.random() * words.length );
+
+document.write("<table><tr>");
+
+document.write("<th><font color='" + randomColor + "'>");
+document.write("<p id='w'>" + words[randomIndex] + "</p>");
+document.write("</font></th><th></th><th><img id='do' width='90' src='./look.jpg'></th></tr>");
+document.write("<tr><th><img id='p' width='200' src='./figures/" + words[randomIndex] + ".jpg'></th>"); 
+counter = counter + 1;
+
+document.write("<th></th><th></th></tr></table>");
+words.splice(randomIndex, 1);
+
+function myFunction() {
+  setInterval(function(){  
+	
+	if (swhitch) {
+	    if ( is_break ) {
+			document.getElementById('p').src = './break/b_' + Math.floor(Math.random() * 12 ) + '.gif';
+			document.getElementById('do').src = '';
+			document.getElementById('w').innerHTML = ""; 
+			is_break = false;
+		}
+		else 
+		{ if ( words.length!=0 ) {
+			randomColor = Math.floor(Math.random()*16777215).toString(16);
+			randomIndex = Math.floor(Math.random() * words.length );
+			document.getElementById('w').innerHTML = words[randomIndex]; 
+			document.getElementById('p').src = './figures/' + words[randomIndex] + '.jpg';
+			document.getElementById('do').src = './look.jpg';
+			words.splice(randomIndex, 1);
+		}
+		swhitch = false;
+		}
+	} else {
+		document.getElementById('w').innerHTML = "-"; 
+		document.getElementById('do').src = './write.jpg';
+		swhitch = true;
+		counter = counter + 1;
+		if ( (counter % 4)==0) { 
+			is_break = true;
+		}
+	}
+		
+  }, 10000);
+}
+
+myFunction();
+
+</script>
+
+
+   
+</body>
+</html>
