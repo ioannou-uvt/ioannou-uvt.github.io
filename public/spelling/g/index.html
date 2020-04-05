@@ -11,6 +11,7 @@ p,h1,h2 {
 </head>
 <body style="font-family: Roboto, Verdana; font-size: 50pt;">
 
+<hr id='line' align="left" width=1pt style="border: 3px solid red;">
 
 <script>
 
@@ -18,7 +19,7 @@ var swhitch = false;
 var counter = 0;
 var is_break = false;
 var url ="https://surfdrive.surf.nl/files/index.php/s/Z6PVxbyLXSRmOpx";
-var words = ["geit", "pauw", "hek", "gek", "mug", "mug",  "maag", "zeg", "oog", "hoog", "heg", "hek", "gek", 
+var words = ["geit", "pauw", "hek", "mug", "mug",  "maag", "zeg", "oog", "hoog", "heg", "hek", "gek", 
 "zout", "dag", "ziet", "zou", "jou", "deuk", "leuk", "weeg", "dak", "hip",
 "wie", "uur", "guur", "gaar", "gaas", "aas", "dop", "geur", "rook", "rug",
 "joul", "oor", "voeg", "voel", "waar","vuur", "wieg", "reus"];
@@ -52,6 +53,7 @@ function myFunction() {
 			randomColor = Math.floor(Math.random()*16777215).toString(16);
 			randomIndex = Math.floor(Math.random() * words.length );
 			document.getElementById('w').innerHTML = words[randomIndex]; 
+			document.getElementById('line').width = counter*10 + "pt"; 
 			document.getElementById('p').src = './figures/' + words[randomIndex] + '.jpg';
 			document.getElementById('do').src = './look.jpg';
 			words.splice(randomIndex, 1);

@@ -11,6 +11,8 @@ p,h1,h2 {
 </head>
 <body style="font-family: Roboto, Verdana; font-size: 50pt;">
 
+<hr id='line' align="left" width=1pt style="border: 3px solid red;">
+
 
 <script>
 
@@ -56,6 +58,7 @@ function myFunction() {
 			randomColor = Math.floor(Math.random()*16777215).toString(16);
 			randomIndex = Math.floor(Math.random() * words.length );
 			document.getElementById('w').innerHTML = words[randomIndex]; 
+			document.getElementById('line').width = counter*10 + "pt"; 
 			document.getElementById('p').src = './figures/' + words[randomIndex] + '.jpg';
 			document.getElementById('do').src = './look.jpg';
 			words.splice(randomIndex, 1);
